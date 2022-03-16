@@ -1,16 +1,21 @@
 body {
-    background: #f9e933;
-    }
+	background: #f9e933;
+}
     
-    header, main, footer {
+header, main, footer {
     min-width: 855px;
-    }
+}
+
+header .container, main .container, footer .container {
+	max-width: 855px;
+	margin: auto;
+}
     
-    header {
+header {
     background: white;
-    }
+}
     
-    main {
+main {
     background: white;
-    }
+}
     
