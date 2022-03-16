@@ -1,10 +1,25 @@
 body {
 	background: #f9e933;
+    font-family: 'Droid sans';
+	font-size: 100%;
+}
+a{
+	text-decoration: none;
+	color: red;
+}
+a:hover {
+	text-decoration: underline;
+	color: red;
+}
+h1, h2, h3, h4 {
+	font-family: Ubuntu;
+	font-size: 120%;
 }  
 header, main, footer {
     min-width: 855px;
 }
-header .container, main .container, footer .container {
+header .container, main .container, footer .container { 
+	max-width: 855px;
 	margin: auto;
 }
 header {
@@ -26,6 +41,21 @@ main {
 main .main_block {
 	float: left;
 	width: 570px;
+}
+main h2 {
+	font-size: 120%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+main h3 {
+	margin-top: 10px;
+	margin-bottom: 5px;	
+}
+
+footer {
+	overflow: auto;
+	padding: 10px;
 }
 main .image {
 	float: right;	
