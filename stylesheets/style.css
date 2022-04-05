@@ -131,6 +131,15 @@ footer .contact {
 .sitemap li {
 	list-style: none;
 }
+main .content{
+	background-color: white;
+}
+
+main .content h3{
+	text-transform: uppercase;
+	padding: 7px;
+	background-color: #b7b7b7;
+}
 footer .sitemap {
 	float: right;	
 	width: 285px;
